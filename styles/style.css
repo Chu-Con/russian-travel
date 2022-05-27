@@ -1,0 +1,68 @@
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #2A2C2F;
+  color: #FFFFFF;
+}
+
+.header {
+
+}
+
+.header__logo {
+
+}
+
+.header__lang-selector {
+
+}
+
+.header__lang-links {
+  list-style-type: none;
+}
+
+.header__lang-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.lead {
+
+}
+
+.lead__title {
+
+}
+
+.lead__subtitle {
+
+}
+
+.lead__image {
+  width: 50%;
+  height: 50%;
+}
+
+.lead__caption {
+  text-transform: uppercase;
+}
+
+.intro {
+
+}
+
+.intro__title {
+
+}
+
+.inrto__text {
+
+}
+
+.intro__list {
+  list-style-type: none;
+}
