@@ -155,6 +155,25 @@
 
 
 /* Б-А-Й-К-А-Л */
+.cover {
+  background-image: url('../images/cover-trains.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 90vw;
+  height: 90vh;
+}
+
+.cover__title {
+
+}
+
+.cover__subtitle {
+
+}
+
+.cover__background {
+ 
+}
 
 
 /* П-О-Д-В-А-Л */
