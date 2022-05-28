@@ -90,3 +90,30 @@
   height: 100%;
   object-fit: cover;
 }
+
+.footer {
+  display: flex;
+}
+
+.footer__menu {
+  
+}
+
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  /* justify-content: space-between; */
+  gap: 18px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.footer__copyright {
+
+}
