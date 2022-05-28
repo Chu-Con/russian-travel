@@ -5,7 +5,11 @@
   margin: 0 auto;
   background-color: #2A2C2F;
   color: #FFFFFF;
+  font-family: 'Inter';
 }
+
+
+/* Ш-А-П-К-А */
 
 .header {
 
@@ -35,6 +39,11 @@
   /* text-decoration: underline; */
 /* } */
 
+
+
+/* Л-И-Д */
+
+
 .lead {
 
 }
@@ -57,6 +66,10 @@
   text-transform: uppercase;
 }
 
+
+/* И-Н-Т-Р-О */
+
+
 .intro {
 
 }
@@ -72,6 +85,10 @@
 .intro__list {
   list-style-type: none;
 }
+
+
+/* Г-А-Л-Е-Р-Е-Я */
+
 
 .photo-grid {
   /* параметр высоты взял из тренажера */
@@ -90,6 +107,58 @@
   height: 100%;
   object-fit: cover;
 }
+
+
+
+/* М-Е-С-Т-А */
+
+
+.places {
+
+}
+
+.place {
+  display: flex;
+  flex-direction: row;
+}
+
+.place__title {
+  font-size: 72px;
+  line-height: 76px;
+  font-weight: 900;
+}
+
+.place__image {
+  width: 40%;
+  height: 40%;
+  background-size: cover;
+}
+
+.place__website {
+
+}
+
+.place__url-heading {
+  color: #AAAAAA;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-style: normal;
+}
+
+.place__link {
+  color: #FFFFFF;
+}
+
+.place__paragraph {
+
+}
+
+
+/* Б-А-Й-К-А-Л */
+
+
+/* П-О-Д-В-А-Л */
+
 
 .footer {
   display: flex;
