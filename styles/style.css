@@ -1,11 +1,35 @@
 @font-face {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
 	src: local('Inter-Regular'),
     url('Inter-Regular.otf') format('opentype'),
     url('Inter-Regular.ttf') format('truetype'),
-    url('Inter-Regular.svg') format('svg'),
+    url('Inter-Regular.svg#Inter-Regular') format('svg'),
     url('Inter-Regular.woff') format('woff'), 
     url('Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: local('Inter-Bold'),
+    url('Inter-Bold.ttf') format('truetype'),
+    url('Inter-Bold.svg#Inter-Bold') format('svg'),
+    url('Inter-Bold.woff2') format('woff2'),
+    url('Inter-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter-Black';
+  src: local('Inter-Black'),
+    url('Inter-Black.ttf') format('truetype'),
+    url('Inter-Black.svg#Inter-Black') format('svg'),
+    url('Inter-Black.woff2') format('woff2'),
+    url('Inter-Black.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* стили директивы из css файла сайта https://www.fontconverter.io/ */
@@ -49,7 +73,7 @@
   display: flex;
   list-style-type: none;
   gap: 18px;
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -77,7 +101,7 @@
 }
 
 .lead__title {
-  font-family: 'Inter';
+  font-family: 'Inter-Black';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -87,7 +111,7 @@
 }
 
 .lead__subtitle {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
@@ -103,7 +127,7 @@
 }
 
 .lead__caption {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -122,7 +146,7 @@
 }
 
 .intro__title {
-  font-family: 'Inter';
+  font-family: 'Inter-Black';
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -131,7 +155,7 @@
 }
 
 .inrto__text {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -140,7 +164,7 @@
 }
 
 .intro__list {
-  font-family: 'Inter';
+  font-family: 'Inter-Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -193,7 +217,7 @@
 
 .place__title {
   grid-area: title;
-  font-family: 'Inter';
+  font-family: 'Inter-Black';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -217,7 +241,7 @@
 }
 
 .place__url-heading {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -230,7 +254,7 @@
 }
 
 .place__link {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -242,7 +266,7 @@
 }
 
 .place__paragraph {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -256,7 +280,7 @@
 }
 
 .place__paragraph_bottom {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -279,7 +303,7 @@
 }
 
 .cover__title {
-  font-family: 'Inter';
+  font-family: 'Inter-Black';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -289,7 +313,7 @@
 }
 
 .cover__subtitle {
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -321,7 +345,7 @@
   /* justify-content: space-between; */
   gap: 18px;
 
-  font-family: 'Inter';
+  font-family: 'Inter-Regular';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
