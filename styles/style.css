@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Inter';
+	src: local('Inter-Regular'),
+    url('Inter-Regular.otf') format('opentype'),
+    url('Inter-Regular.ttf') format('truetype'),
+    url('Inter-Regular.svg') format('svg'),
+    url('Inter-Regular.woff') format('woff'), 
+    url('Inter-Regular.woff2') format('woff2');
+}
+
+/* стили директивы из css файла сайта https://www.fontconverter.io/ */
+/* @font-face { */
+  /* font-family: 'Inter-Regular'; */
+  /* src: url(./Inter-Regular.eot); */
+  /* src: url(./Inter-Regular.eot?#iefix) format('embedded-opentype'), */
+       /* url(./Inter-Regular.svg#Inter-Regular) format('svg'), */
+       /* url(./Inter-Regular.ttf) format('truetype'), */
+       /* url(./Inter-Regular.woff) format('woff'), */
+       /* url(./Inter-Regular.woff2) format('woff2'); */
+/* } */
+
 .page {
   /* параметры ширины и выстоы нужно будет поменять? */
   min-width: 320px;
@@ -8,6 +29,7 @@
   color: #FFFFFF;
   font-family: 'Inter';
 }
+
 
 
 /* Ш-А-П-К-А */
@@ -26,6 +48,12 @@
 .header__lang-links {
   display: flex;
   list-style-type: none;
+  gap: 18px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 .header__lang-link {
@@ -44,17 +72,28 @@
 
 /* Л-И-Д */
 
-
 .lead {
 
 }
 
 .lead__title {
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  text-align: center;
 }
 
 .lead__subtitle {
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  /* or 120% */
+  text-align: center;
 }
 
 /* задал параметры картинки наугад */
@@ -64,32 +103,55 @@
 }
 
 .lead__caption {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  /* identical to box height, or 140% */
+  letter-spacing: 1.5px;
   text-transform: uppercase;
 }
 
 
-/* И-Н-Т-Р-О */
 
+/* И-Н-Т-Р-О */
 
 .intro {
 
 }
 
 .intro__title {
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  /* identical to box height, or 107% */
 }
 
 .inrto__text {
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  /* or 26px */
 }
 
 .intro__list {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+/* or 150% */
   list-style-type: none;
 }
 
 
-/* Г-А-Л-Е-Р-Е-Я */
 
+/* Г-А-Л-Е-Р-Е-Я */
 
 .photo-grid {
   /* параметр высоты взял из тренажера */
@@ -113,7 +175,6 @@
 
 /* М-Е-С-Т-А */
 
-
 .places {
 
 }
@@ -131,10 +192,13 @@
 }
 
 .place__title {
+  grid-area: title;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  font-weight: 900;
-  grid-area: title;
+  /* or 106% */
 }
 
 .place__image {
@@ -153,18 +217,38 @@
 }
 
 .place__url-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
   color: #AAAAAA;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-style: normal;
   grid-area: link;
 }
 
 .place__link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-decoration: underline;
   color: #FFFFFF;
+  /* grid-area: link; */
 }
 
 .place__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+
   /* grid-column-start: 2;
   grid-column-end: span 2; */
   grid-area: paragraph;
@@ -172,10 +256,20 @@
 }
 
 .place__paragraph_bottom {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+
   grid-area: paragraph-bottom;
 }
 
+
+
 /* Б-А-Й-К-А-Л */
+
 .cover {
   background-image: url('../images/cover-trains.jpg');
   background-repeat: no-repeat;
@@ -185,11 +279,23 @@
 }
 
 .cover__title {
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  text-align: center;
 }
 
 .cover__subtitle {
-
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
 }
 
 .cover__background {
@@ -197,8 +303,8 @@
 }
 
 
-/* П-О-Д-В-А-Л */
 
+/* П-О-Д-В-А-Л */
 
 .footer {
   display: flex;
@@ -214,6 +320,13 @@
   list-style-type: none;
   /* justify-content: space-between; */
   gap: 18px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
 }
 
 .footer__link {
