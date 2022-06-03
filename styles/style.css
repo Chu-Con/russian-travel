@@ -73,23 +73,31 @@
   display: flex;
   list-style-type: none;
   gap: 18px;
-  font-family: 'Inter-Regular';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
+  /* font-family: 'Inter-Regular'; */
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* font-size: 24px; */
+  /* line-height: 28px; */
+  /* identical to box height, or 117% */
 }
 
 .header__lang-link {
   text-decoration: none;
   color: #FFFFFF;
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 400;
+  font-family: 'Inter-Regular';
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  /* font-size: 24px; */
+  /* line-height: 28px; */
+  /* identical to box height, or 117% */
 }
 
-/* .header__lang-link:first-of-type { */
-  /* text-decoration: underline; */
+.header__lang-link_on {
+  text-decoration: underline;
+}
+
+/* .header__lang-link:last-of-type { */
+  /* text-decoration: none; */
 /* } */
 
 
@@ -383,9 +391,23 @@
 @media screen and (min-width: 320px) and (max-width: 767px){
 
   .page {
-    background-color: blue;
     min-width: 320px;
     max-width: 767px;
+  }
+
+  .header__lang-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+  }
+
+  .header__lang-link_on {
+    text-decoration: underline;
   }
 
   .lead__title {
@@ -474,7 +496,6 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
   .page {
-      background-color: red;
       min-width: 768px;
       max-width: 1023px;
   }
@@ -565,7 +586,6 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px){
   .page {
-      background-color: purple;
       min-width: 1024px;
       max-width: 1279px;
   }
@@ -585,7 +605,6 @@
 
 @media screen and (min-width: 1280px){
   .page {
-      background-color: orange
       min-width: 1280px;
   }
 }
