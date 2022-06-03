@@ -14,36 +14,24 @@
     
     .header {
       max-width: 1184px;
-      max-height: 52px;
-
       display: flex;
       justify-content: space-between;
     }
     
+
     .header__logo {
       width: 176px;
     }
     
-    /* .header__lang-selector {} */
-    
+
     .header__lang-links {
       display: flex;
       list-style-type: none;
       gap: 18px;
-      /* font-family: 'Inter-Regular'; */
-      /* font-style: normal; */
-      /* font-weight: 400; */
-      /* font-size: 24px; */
-      /* line-height: 28px; */
-      /* identical to box height, or 117% */
     }
     
     
     .header__lang-link {
-      width: 30px;
-      height: 28px;
-
-
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -59,24 +47,16 @@
       text-decoration: underline;
     }
     
-    /* .header__lang-link:last-of-type { */
-      /* text-decoration: none; */
-    /* } */
     
-    
-    
+
     /* Л-И-Д */
     
     .lead {
       max-width: 984px;
-      max-height: 1005px;
     }
     
 
     .lead__title {
-      max-width: 720px;
-      max-height: 200px;
-
       font-family: 'Inter-Black';
       font-style: normal;
       font-weight: 900;
@@ -89,9 +69,6 @@
     
 
     .lead__subtitle {
-      max-width: 640px;
-      max-height: 72px;
-
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -102,19 +79,16 @@
       color: #FFFFFF;
     }
     
-    /* задал параметры картинки наугад */
+
     .lead__image {
       max-width: 984px;
       max-height: 615px;
-
       /* width: 100%; */
       /* height: 50%; */
     }
     
-    .lead__caption {
-      width: 158px;
-      height: 14px;
 
+    .lead__caption {
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -132,13 +106,11 @@
     
     .intro {
       max-width: 690px;
-      max-height: 429px;
+      /* max-height: 429px; */
     }
     
-    .intro__title {
-      width: 690px;
-      height: 58px;
 
+    .intro__title {
       font-family: 'Inter-Black';
       font-style: normal;
       font-weight: 900;
@@ -148,10 +120,10 @@
       color: #FFFFFF;
     }
     
-    .inrto__text {
-      width: 690px;
-      height: 208px;
 
+    .inrto__text {
+      max-width: 690px;
+      /* height: 208px; */
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -161,10 +133,10 @@
       color: #FFFFFF;
     }
     
+
     .intro__list {
       width: 690px;
       height: 90px;
-
       font-family: 'Inter-Bold';
       font-style: normal;
       font-weight: 700;
@@ -181,21 +153,17 @@
     
     .photo-grid {
       max-width: 1184px;
-      max-height: 671px;
-
-      /* параметр высоты взял из тренажера */
-      min-height: calc(100vh - 80px);
+      /* max-height: 671px; */
       display: grid;
       grid-template-columns:repeat(4, 1fr);
       grid-template-rows: repeat(3, 1fr);
       gap: 16px;
     }
     
-    /* параметры взял из тренажера */
+
+
     .photo-grid__item {
       max-width: 284px;
-      max-height: 213px;
-
       /* max-width: 100%; */
       /* max-height: 100%; */
       /* width: 100%; */
@@ -208,13 +176,13 @@
     /* М-Е-С-Т-А */
     
     .places {
-      max-width: 984px;
+
     }
     
-    .place {
-      width: 984px;
-      height: 660px;
 
+    .place {
+      max-width: 984px;
+      /* height: 660px; */
       /* display: flex; */
       /* flex-direction: row; */
       display: grid;
@@ -226,10 +194,8 @@
       "image paragraph-bottom"
     }
     
+
     .place__title {
-      width: 460px;
-      height: 152px;
-   
       font-family: 'Inter-Black';
       font-style: normal;
       font-weight: 900;
@@ -239,10 +205,10 @@
       grid-area: title;
     }
     
+
     .place__image {
       max-width: 460px;
-      height: 460px;
-        
+      /* height: 460px; */
       /* width: 90%; */
       /* height: 90%; */
       background-size: cover;
@@ -253,15 +219,13 @@
       /* grid-row-end: span 2; */
     }
     
+
     .place__website {
-      width: 456px;
-      height: 46px;
+
     }
     
-    .place__url-heading {
-      width: 456px;
-      height: 12px;
 
+    .place__url-heading {
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -274,10 +238,8 @@
       grid-area: link;
     }
     
-    .place__link {
-      width: 456px;
-      height: 22px;
 
+    .place__link {
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -289,9 +251,9 @@
       /* grid-area: link; */
     }
     
-    .place__paragraph {
-      max-width: 484px;
 
+    .place__paragraph {
+      /* max-width: 484px; */
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -305,6 +267,7 @@
       
     }
     
+
     .place__paragraph_bottom {
       font-family: 'Inter-Regular';
       font-style: normal;
@@ -312,7 +275,6 @@
       font-size: 18px;
       line-height: 163%;
       /* or 29px */
-    
       grid-area: paragraph-bottom;
     }
     
@@ -321,16 +283,14 @@
     /* Б-А-Й-К-А-Л */
     
     .cover {
-      max-width: 1184px;
-      max-height: 740px;
+      /* max-width: 1184px; */
+      /* max-height: 740px; */
       /* width: 90vw; */
       /* height: 90vh; */
     }
     
-    .cover__title {
-      width: 560px;
-      height: 152px;
 
+    .cover__title {
       font-family: 'Inter-Black';
       font-style: normal;
       font-weight: 900;
@@ -341,10 +301,8 @@
       color: #FFFFFF;
     }
     
-    .cover__subtitle {
-      width: 360px;
-      height: 66px;
 
+    .cover__subtitle {
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -355,6 +313,7 @@
       color: #FFFFFF;
     }
     
+
     .cover__background {
       background-image: url('../images/cover-trains.jpg');
       background-repeat: no-repeat;
@@ -367,22 +326,20 @@
     
     .footer {
       max-width: 1184px;
-      max-height: 18px;
-
       display: flex;
       justify-content: space-between;
     }
     
+
     .footer__menu {
       
     }
     
+
     .footer__links {
       display: flex;
       list-style-type: none;
-      /* justify-content: space-between; */
       gap: 18px;
-    
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
@@ -392,9 +349,8 @@
       color: #FFFFFF;
     }
     
-    .footer__link {
-      height: 18px;
 
+    .footer__link {
       font-family: 'Inter-Regular';
       text-decoration: none;
       color: #FFFFFF;
@@ -403,16 +359,12 @@
       /* identical to box height, or 18px*/
       font-weight: 400;
       margin-bottom: 24px;
-      /* padding-bottom: 24px; */
       color: #FFFFFF;
     }
     
+
     .footer__copyright {
-      height: 16px;
-
       margin-bottom: 24px;
-      /* padding-bottom: 24px; */
-
       font-family: 'Inter-Regular';
       font-style: normal;
       font-weight: 400;
