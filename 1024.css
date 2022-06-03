@@ -10,16 +10,17 @@
       }
 
 
-        /* Ш-А-П-К-А */
+/* Ш-А-П-К-А */
         
         .header {
+          max-width: 928px;
+
           display: flex;
           justify-content: space-between;
         }
         
         .header__logo {
-          max-width: 176px;
-          max-height: 52px;
+          width: 176px;
         }
         
         /* .header__lang-selector {} */
@@ -59,11 +60,11 @@
         
         
         
-        /* Л-И-Д */
+/* Л-И-Д */
         
         .lead {
           width: 928px;
-          height: 962px;
+          /* height: 962px; */
         }
         
     
@@ -119,7 +120,7 @@
         
         
         
-        /* И-Н-Т-Р-О */
+/* И-Н-Т-Р-О */
         
         .intro {
           max-width: 690px;
@@ -168,10 +169,10 @@
         
         
         
-        /* Г-А-Л-Е-Р-Е-Я */
+/* Г-А-Л-Е-Р-Е-Я */
         
         .photo-grid {
-          /* max-width: 928px; */
+          max-width: 928px;
           /* max-height: 942px; */
     
           /* параметр высоты взял из тренажера */
@@ -196,7 +197,7 @@
         
         
         
-        /* М-Е-С-Т-А */
+/* М-Е-С-Т-А */
         
         .places {
           /* width: 928px; */
@@ -309,7 +310,7 @@
         
         
         
-        /* Б-А-Й-К-А-Л */
+/* Б-А-Й-К-А-Л */
         
         .cover {
           width: 1024px;
@@ -354,7 +355,7 @@
         
         
         
-        /* П-О-Д-В-А-Л */
+/* П-О-Д-В-А-Л */
         
         .footer {
           width: 928px;

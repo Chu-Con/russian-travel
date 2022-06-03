@@ -12,15 +12,17 @@
     }
   
 
-            /* Ш-А-П-К-А */
+ /* Ш-А-П-К-А */
             
             .header {
+                max-width: 288px;
+
                 display: flex;
                 justify-content: space-between;
               }
               
               .header__logo {
-          
+                width: 142px;
               }
               
               /* .header__lang-selector {} */
@@ -29,12 +31,6 @@
                 display: flex;
                 list-style-type: none;
                 gap: 18px;
-                /* font-family: 'Inter-Regular'; */
-                /* font-style: normal; */
-                /* font-weight: 400; */
-                /* font-size: 24px; */
-                /* line-height: 28px; */
-                /* identical to box height, or 117% */
               }
               
               
@@ -60,18 +56,15 @@
               
               
               
-              /* Л-И-Д */
+ /* Л-И-Д */
               
               .lead {
                 width: 320px;
-                height: 406px;
+                /* height: 406px; */
               }
               
           
               .lead__title {
-                width: 288px;
-                height: 88px;
-          
                 font-family: 'Inter-Black';
                 font-style: normal;
                 font-weight: 900;
@@ -85,7 +78,7 @@
           
               .lead__subtitle {
                 width: 288px;
-                height: 40px;
+                /* height: 40px; */
           
                 font-family: 'Inter-Regular';
                 font-style: normal;
@@ -122,7 +115,7 @@
               
               
               
-              /* И-Н-Т-Р-О */
+/* И-Н-Т-Р-О */
               
               .intro {
                 width: 288px;
@@ -171,14 +164,14 @@
               
               
               
-              /* Г-А-Л-Е-Р-Е-Я */
+/* Г-А-Л-Е-Р-Е-Я */
               
               .photo-grid {
-                /* width: 288px; */
+                max-width: 288px;
                 /* max-height: 2724px; */
           
                 /* параметр высоты взял из тренажера */
-                min-height: calc(100vh - 80px);
+                /* min-height: calc(100vh - 80px); */
                 display: grid;
                 grid-template-columns:repeat(4, 1fr);
                 grid-template-rows: repeat(3, 1fr);
@@ -199,7 +192,7 @@
               
               
               
-              /* М-Е-С-Т-А */
+/* М-Е-С-Т-А */
               
               .places {
                 /* width: 320px; */
@@ -312,7 +305,7 @@
               
               
               
-              /* Б-А-Й-К-А-Л */
+/* Б-А-Й-К-А-Л */
               
               .cover {
                 width: 320px;
@@ -357,7 +350,7 @@
               
               
               
-              /* П-О-Д-В-А-Л */
+/* П-О-Д-В-А-Л */
               
               .footer {
                 width: 186px;

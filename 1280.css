@@ -21,8 +21,7 @@
     }
     
     .header__logo {
-      max-width: 176px;
-      max-height: 52px;
+      width: 176px;
     }
     
     /* .header__lang-selector {} */
