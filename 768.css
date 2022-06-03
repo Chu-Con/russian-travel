@@ -1,0 +1,418 @@
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .page {
+        min-width: 768px;
+        max-width: 1023px;
+        margin: 0;
+        padding: 0;
+        background-color: #2A2C2F;
+        color: #FFFFFF;
+        font-family: 'Inter';
+    }
+
+
+            /* Ш-А-П-К-А */
+            
+            .header {
+                display: flex;
+                justify-content: space-between;
+              }
+              
+              .header__logo {
+                max-width: 176px;
+                max-height: 52px;
+              }
+              
+              /* .header__lang-selector {} */
+              
+              .header__lang-links {
+                display: flex;
+                list-style-type: none;
+                gap: 18px;
+                /* font-family: 'Inter-Regular'; */
+                /* font-style: normal; */
+                /* font-weight: 400; */
+                /* font-size: 24px; */
+                /* line-height: 28px; */
+                /* identical to box height, or 117% */
+              }
+              
+              
+              .header__lang-link {
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 111%;
+                /* identical to box height, or 20px*/
+                text-decoration: none;
+                color: #FFFFFF;
+              }
+              
+          
+              .header__lang-link_on {
+                text-decoration: underline;
+              }
+              
+              /* .header__lang-link:last-of-type { */
+                /* text-decoration: none; */
+              /* } */
+              
+              
+              
+              /* Л-И-Д */
+              
+              .lead {
+                width: 768px;
+                height: 862px;
+              }
+              
+          
+              .lead__title {
+                max-width: 720px;
+                max-height: 200px;
+          
+                font-family: 'Inter-Black';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 96px;
+                line-height: 104%;
+                /* or 100px*/
+                text-align: center;
+                color: #FFFFFF;
+              }
+              
+          
+              .lead__subtitle {
+                max-width: 640px;
+                max-height: 72px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 120%;
+                /* or 36px*/
+                text-align: center;
+                color: #FFFFFF;
+              }
+              
+              /* задал параметры картинки наугад */
+              .lead__image {
+                width: 100%;
+                /* height: 50%; */
+              }
+              
+              .lead__caption {
+                width: 158px;
+                height: 14px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 140%;
+                /* identical to box height, or 14px*/
+                letter-spacing: 1.5px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+              }
+              
+              
+              
+              /* И-Н-Т-Р-О */
+              
+              .intro {
+                max-width: 720px;
+                max-height: 429px;
+              }
+              
+              .intro__title {
+                width: 720px;
+                height: 58px;
+          
+                font-family: 'Inter-Black';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 54px;
+                line-height: 107%;
+                /* identical to box height, or 58px*/
+                color: #FFFFFF;
+              }
+              
+              .inrto__text {
+                width: 720px;
+                height: 208px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 163%;
+                /* or 26px */
+                color: #FFFFFF;
+              }
+              
+              .intro__list {
+                width: 720px;
+                height: 90px;
+          
+                font-family: 'Inter-Bold';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 150%;
+                /* or 18px*/
+                list-style-type: none;
+                color: #FFFFFF;
+              }
+              
+              
+              
+              /* Г-А-Л-Е-Р-Е-Я */
+              
+              .photo-grid {
+                /* max-width: 928px; */
+                /* max-height: 942px; */
+          
+                /* параметр высоты взял из тренажера */
+                min-height: calc(100vh - 80px);
+                display: grid;
+                grid-template-columns:repeat(4, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                gap: 16px;
+              }
+              
+              /* параметры взял из тренажера */
+              .photo-grid__item {
+                /* max-width: 300px; */
+                /* max-height: 225px; */
+          
+                /* max-width: 100%; */
+                /* max-height: 100%; */
+                /* width: 100%; */
+                /* height: 100%; */
+                object-fit: cover;
+              }
+              
+              
+              
+              /* М-Е-С-Т-А */
+              
+              .places {
+                /* width: 928px; */
+              }
+              
+              .place {
+                width: 720px;
+                height: 581px;
+          
+                /* display: flex; */
+                /* flex-direction: row; */
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-areas:
+                "title link"
+                "image paragraph"
+                "image paragraph-bottom"
+              }
+              
+              .place__title {
+                width: 340px;
+                height: 92px;
+             
+                font-family: 'Inter-Black';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 42px;
+                line-height: 110%;
+                /* or 46px*/
+                grid-area: title;
+              }
+              
+              .place__image {
+                width: 340px;
+                height: 340px;
+                  
+                /* width: 90%; */
+                /* height: 90%; */
+                background-size: cover;
+                grid-area: image;
+                /* grid-row-start: 2; */
+                /* grid-row-end: 4; */
+                /* grid-row-start: 2; */
+                /* grid-row-end: span 2; */
+              }
+              
+              .place__website {
+                width: 352px;
+                height: 46px;
+              }
+              
+              .place__url-heading {
+                width: 352px;
+                height: 12px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 100%;
+                /* identical to box height, or 12px*/
+                letter-spacing: 2px;
+                color: #AAAAAA;
+                text-transform: uppercase;
+                grid-area: link;
+              }
+              
+              .place__link {
+                width: 352px;
+                height: 22px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 122%;
+                /* identical to box height, or 22px */
+                text-decoration: underline;
+                color: #FFFFFF;
+                /* grid-area: link; */
+              }
+              
+              .place__paragraph {
+                width: 352px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 163%;
+                /* or 26px */
+                color: #FFFFFF;
+                /* grid-column-start: 2;
+                grid-column-end: span 2; */
+                grid-area: paragraph;
+                
+              }
+              
+              .place__paragraph_bottom {
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 163%;
+                /* or 26px */
+              
+                grid-area: paragraph-bottom;
+              }
+              
+              
+              
+              /* Б-А-Й-К-А-Л */
+              
+              .cover {
+                width: 768px;
+                height: 480px;
+                /* width: 90vw; */
+                /* height: 90vh; */
+              }
+              
+              .cover__title {
+                width: 560px;
+                height: 152px;
+          
+                font-family: 'Inter-Black';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 106%;
+                /* or 76px*/
+                text-align: center;
+                color: #FFFFFF;
+              }
+              
+              .cover__subtitle {
+                width: 360px;
+                height: 66px;
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 122%;
+                /* or 22px*/
+                text-align: center;
+                color: #FFFFFF;
+              }
+              
+              .cover__background {
+                background-image: url('../images/cover-trains.jpg');
+                background-repeat: no-repeat;
+                background-size: contain;
+              }
+              
+              
+              
+              /* П-О-Д-В-А-Л */
+              
+              .footer {
+                width: 720px;
+                max-height: 18px;
+          
+                display: flex;
+                justify-content: space-between;
+              }
+              
+              .footer__menu {
+                
+              }
+              
+              .footer__links {
+                display: flex;
+                list-style-type: none;
+                /* justify-content: space-between; */
+                gap: 18px;
+              
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 112%;
+                /* identical to box height, or 18px*/
+                color: #FFFFFF;
+              }
+              
+              .footer__link {
+                height: 18px;
+          
+                font-family: 'Inter-Regular';
+                text-decoration: none;
+                color: #FFFFFF;
+                font-size: 16px;
+                line-height: 112%;
+                /* identical to box height, or 18px*/
+                font-weight: 400;
+                margin-bottom: 24px;
+                /* padding-bottom: 24px; */
+                color: #FFFFFF;
+              }
+              
+              .footer__copyright {
+                height: 16px;
+          
+                margin-bottom: 24px;
+                /* padding-bottom: 24px; */
+          
+                font-family: 'Inter-Regular';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 114%;
+                /* identical to box height, or 16px*/
+                text-align: right;
+                color: #FFFFFF;
+              }
+}
