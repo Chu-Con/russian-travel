@@ -17,6 +17,7 @@
                 max-width: 720px;
                 display: flex;
                 justify-content: space-between;
+                margin: 0 auto;
               }
               
 
@@ -54,6 +55,7 @@
               
               .lead {
                 max-width: 768px;
+                margin: 0 auto;
               }
               
           
@@ -107,6 +109,7 @@
               .intro {
                 max-width: 720px;
                 /* max-height: 429px; */
+                margin: 0 auto;
               }
               
 
@@ -168,6 +171,7 @@
                 grid-template-columns:repeat(4, 1fr);
                 grid-template-rows: repeat(3, 1fr);
                 gap: 16px;
+                margin: 0 auto;
               }
               
           
@@ -186,6 +190,7 @@
               
               .places {
                 /* width: 928px; */
+                margin: 0 auto;
               }
               
 
@@ -199,9 +204,9 @@
                 /* grid-template-columns: repeat(minmax(min-content, max-contetnt)); */
                 grid-template-areas:
                 "title web"
-                "image text"
-                /* row-gap: 28px;
-                column-gap: 48px; */
+                "image text";
+                row-gap: 28px;
+                column-gap: 48px;
               }
               
 
@@ -213,6 +218,7 @@
                 line-height: 110%;
                 /* or 46px*/
                 grid-area: title;
+                margin: 0;
               }
               
 
@@ -228,6 +234,7 @@
               
 
               .place__website {
+                align-self: end;
                 grid-area: web;
               }
               
@@ -282,6 +289,7 @@
                 /* height: 480px; */
                 /* width: 90vw; */
                 /* height: 90vh; */
+                margin: 0 auto;
               }
               
 
@@ -323,6 +331,7 @@
                 max-width: 720px;
                 display: flex;
                 justify-content: space-between;
+                margin: 0 auto;
               }
               
 

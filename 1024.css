@@ -17,6 +17,7 @@
           max-width: 928px;
           display: flex;
           justify-content: space-between;
+          margin: 0 auto;
         }
         
 
@@ -54,6 +55,7 @@
         
         .lead {
           max-width: 928px;
+          margin: 0 auto;
         }
         
     
@@ -81,7 +83,6 @@
         }
         
 
-        /* задал параметры картинки наугад */
         .lead__image {
           width: 100%;
           /* height: 50%; */
@@ -107,6 +108,7 @@
         .intro {
           max-width: 690px;
           /* max-height: 429px; */
+          margin: 0 auto;
         }
         
 
@@ -168,6 +170,7 @@
           grid-template-columns:repeat(4, 1fr);
           grid-template-rows: repeat(3, 1fr);
           gap: 16px;
+          margin: 0 auto;
         }
         
      
@@ -186,6 +189,7 @@
         
         .places {
           /* width: 928px; */
+          margin: 0 auto;
         }
         
 
@@ -201,9 +205,9 @@
       grid-template-rows: 1fr 1fr; */
           grid-template-areas:
           "title web"
-          "image text"
-          /* row-gap: 32px;
-          column-gap: 48px; */
+          "image text";
+          row-gap: 32px;
+          column-gap: 48px;
         }
         
 
@@ -226,10 +230,12 @@
           /* height: 90%; */
           background-size: cover;
           grid-area: image;
+          margin: 0;
         }
         
 
         .place__website {
+          align-self: end;
           grid-area: web;
         }
         
@@ -284,6 +290,7 @@
           /* height: 640px; */
           /* width: 90vw; */
           /* height: 90vh; */
+          margin: 0 auto;
         }
         
 
@@ -325,6 +332,7 @@
           max-width: 928px;
           display: flex;
           justify-content: space-between;
+          margin: 0 auto;
         }
         
 

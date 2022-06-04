@@ -10,12 +10,13 @@
     
     
     
-    /* Ш-А-П-К-А */
+/* Ш-А-П-К-А */
     
     .header {
       max-width: 1184px;
       display: flex;
       justify-content: space-between;
+      margin: 0 auto;
     }
     
 
@@ -49,10 +50,11 @@
     
     
 
-    /* Л-И-Д */
+/* Л-И-Д */
     
     .lead {
       max-width: 984px;
+      margin: 0 auto;
     }
     
 
@@ -81,10 +83,9 @@
     
 
     .lead__image {
-      max-width: 984px;
-      max-height: 615px;
-      /* width: 100%; */
-      /* height: 50%; */
+      width: 100%;
+      /* max-width: 984px;
+      max-height: 615px; */
     }
     
 
@@ -102,11 +103,12 @@
     
     
     
-    /* И-Н-Т-Р-О */
+/* И-Н-Т-Р-О */
     
     .intro {
       max-width: 690px;
       /* max-height: 429px; */
+      margin: 0 auto;
     }
     
 
@@ -157,7 +159,7 @@
 
     
     
-    /* Г-А-Л-Е-Р-Е-Я */
+/* Г-А-Л-Е-Р-Е-Я */
     
     .photo-grid {
       max-width: 1184px;
@@ -166,6 +168,7 @@
       grid-template-columns:repeat(4, 1fr);
       grid-template-rows: repeat(3, 1fr);
       gap: 16px;
+      margin: 0 auto;
     }
     
 
@@ -185,6 +188,7 @@
     
     .places {
       /* max-width: 984px; */
+      margin: 0 auto;
     }
     
 
@@ -196,9 +200,9 @@
       grid-template-columns: minmax(min-content,460px) minmax(min-content,484px);
       grid-template-areas:
       "title web"
-      "image text"
-      /* row-gap: 40px;
-      column-gap: 48px; */
+      "image text";
+      row-gap: 40px;
+      column-gap: 48px;
     }
     
 
@@ -210,6 +214,7 @@
       line-height: 106%;
       /* or 76px*/
       grid-area: title;
+      margin: 0;
     }
     
 
@@ -225,6 +230,7 @@
     
 
     .place__website {
+      align-self: end;
       grid-area: web;
     }
     
@@ -272,13 +278,14 @@
     
     
     
-    /* Б-А-Й-К-А-Л */
+/* Б-А-Й-К-А-Л */
     
     .cover {
       /* max-width: 1184px; */
       /* max-height: 740px; */
       /* width: 90vw; */
       /* height: 90vh; */
+      margin: 0 auto;
     }
     
 
@@ -314,12 +321,13 @@
     
     
     
-    /* П-О-Д-В-А-Л */
+/* П-О-Д-В-А-Л */
     
     .footer {
       max-width: 1184px;
       display: flex;
       justify-content: space-between;
+      margin: 0 auto;
     }
     
 
