@@ -272,6 +272,17 @@
                 /* height: 90vh; */
                 margin: 0 auto;
               }
+
+
+              .cover__background {
+                width: 100%;
+                /* width: 1184px;
+                height: 740px; */
+                background-image: url('../images/cover-trains.jpg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                z-index: 1;
+              }
               
 
               .cover__title {
@@ -283,6 +294,7 @@
                 /* or 35px*/
                 text-align: center;
                 color: #FFFFFF;
+                z-index: 2;
               }
               
 
@@ -295,13 +307,7 @@
                 /* or 16px*/
                 text-align: center;
                 color: #FFFFFF;
-              }
-              
-
-              .cover__background {
-                background-image: url('../images/cover-trains.jpg');
-                background-repeat: no-repeat;
-                background-size: contain;
+                z-index: 2;
               }
               
               
