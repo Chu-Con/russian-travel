@@ -1,7 +1,7 @@
-@media screen and (min-width: 320px) and (max-width: 767px){
+@media screen and (max-width: 767px){
     .page {
       min-width: 320px;
-      max-width: 767px;
+      max-width: 767.99px;
       margin: 0;
       padding: 0;
       background-color: #2A2C2F;
@@ -173,9 +173,10 @@
               }
               
               .place {
-                max-width: 320px;
+                /* max-width: 320px; */
                 display: grid;
-                grid-template-rows: 1fr 1fr 1fr 1fr;
+                grid-template-columns: minmax(320px, max-contetnt);
+                /* grid-template-rows: 1fr 1fr 1fr 1fr; */
               }
               
               
@@ -190,7 +191,8 @@
               
 
               .place__image {
-                max-width: 320px;
+                width: 100%; 
+                /* max-width: 320px; */
                 /* height: 320px;
                 width: 90%;
                 height: 90%; */

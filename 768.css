@@ -1,7 +1,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px){
     .page {
         min-width: 768px;
-        max-width: 1023px;
+        max-width: 1023.99px;
         margin: 0;
         padding: 0;
         background-color: #2A2C2F;
@@ -182,10 +182,13 @@
               
 
               .place {
-                max-width: 720px;
+                /* max-width: 720px; */
                 display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr 1fr;
+                /* grid-template-columns: repeat(auto-fit, 352px); */
+                /* grid-template-columns: repeat(auto-fit, minmax(352px,1fr)); */
+                /* grid-template-columns: repeat(auto-fit, minmax(min-content,352px)); */
+                grid-template-columns: minmax(min-content,340px) minmax(352px, max-contetnt);
+                /* grid-template-columns: repeat(minmax(min-content, max-contetnt)); */
                 grid-template-areas:
                 "title web"
                 "image text"
@@ -206,7 +209,8 @@
               
 
               .place__image {
-                max-width: 340px;
+                width: 100%; 
+                /* max-width: 340px; */
                 /* height: 340px; */
                 /* width: 90%; */
                 /* height: 90%; */

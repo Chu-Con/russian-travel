@@ -176,15 +176,16 @@
 /* М-Е-С-Т-А */
     
     .places {
-      max-width: 984px;
+      /* max-width: 984px; */
     }
     
 
     .place {
-      max-width: 984px;
+      /* max-width: 984px; */
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      /* grid-template-columns: repeat(auto-fit, 484px); */
+      /* grid-template-columns: repeat(auto-fit, minmax(484px,1fr)); */
+      grid-template-columns: minmax(min-content,460px) minmax(min-content,484px);
       grid-template-areas:
       "title web"
       "image text"
@@ -205,7 +206,8 @@
     
 
     .place__image {
-      max-width: 460px;
+      width: 100%; 
+      /* max-width: 460px; */
       /* height: 460px; */
       /* width: 90%; */
       /* height: 90%; */
