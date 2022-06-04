@@ -71,6 +71,8 @@
       /* or 100px*/
       text-align: center;
       color: #FFFFFF;
+      margin: 56px auto 0;
+      padding: 0;
     }
     
 
@@ -83,13 +85,15 @@
       /* or 36px*/
       text-align: center;
       color: #FFFFFF;
+      margin: 32px auto 64px;
     }
     
 
     .lead__image {
-      width: 100%;
+      max-width: 100%;
       /* max-width: 984px;
       max-height: 615px; */
+      /* margin: 0 auto; */
     }
     
 
