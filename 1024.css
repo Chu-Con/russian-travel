@@ -147,8 +147,16 @@
           color: #FFFFFF;
         }
         
+
+        .intro__numbers {
+            font-family: 'Inter-Regular';
+            font-style: normal;
+            font-weight: 400;
+            color: #FFFFFF;
+          }
         
         
+          
 /* Г-А-Л-Е-Р-Е-Я */
         
         .photo-grid {
