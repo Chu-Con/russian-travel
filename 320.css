@@ -127,7 +127,8 @@
               
 
               .inrto__text {
-                max-width: 288px;
+                width: 100%;
+                /* max-width: 288px; */
                 /* height: 520px; */
                 font-family: 'Inter-Regular';
                 font-style: normal;
@@ -140,8 +141,7 @@
               
 
               .intro__list {
-                width: 288px;
-                height: 90px;
+                width: 100%;
                 font-family: 'Inter-Bold';
                 font-style: normal;
                 font-weight: 700;
@@ -163,7 +163,17 @@
 
               
 /* Г-А-Л-Е-Р-Е-Я */
-                         
+                     
+.photo-grid {
+    max-width: 928px;
+    /* max-height: 942px; */
+    /* параметр высоты взял из тренажера */
+    /* min-height: calc(100vh - 80px); */
+    display: grid;
+    gap: 16px;
+    margin: 0 auto;
+  }
+
               .photo-grid__item {
                 max-width: 288px;
                 /* max-height: 225px; */
@@ -189,6 +199,7 @@
                 display: grid;
                 grid-template-columns: minmax(320px, max-contetnt);
                 /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+                row-gap: 32px;
               }
               
               
@@ -281,6 +292,8 @@
                 background-image: url('../images/cover-trains.jpg');
                 background-repeat: no-repeat;
                 background-size: contain;
+                /* background-size: cover;
+                background-position: center; */
                 z-index: 1;
               }
               
@@ -319,7 +332,8 @@
                 /* height: 310px; */
                 display: flex;
                 justify-content: space-between;
-                margin: 0 auto;
+                margin: 0;
+                flex-wrap: wrap;
               }
               
 
@@ -330,6 +344,7 @@
 
               .footer__links {
                 display: flex;
+                /* flex-wrap: wrap; */
                 flex-direction: column;
                 list-style-type: none;
                 /* justify-content: space-between; */
