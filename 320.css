@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 320px) and (max-width: 767px){
 
     .page {
@@ -11,6 +10,7 @@
       font-family: 'Inter';
     }
   
+
 
  /* Ш-А-П-К-А */
             
@@ -51,7 +51,6 @@
               
 
               
-              
  /* Л-И-Д */
               
               .lead {
@@ -73,9 +72,6 @@
               
           
               .lead__subtitle {
-                width: 288px;
-                /* height: 40px; */
-          
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -86,6 +82,7 @@
                 color: #FFFFFF;
               }
               
+
               /* задал параметры картинки наугад */
               .lead__image {
                 width: 100%;
@@ -94,10 +91,8 @@
                 height: 200px; */
               }
               
+
               .lead__caption {
-                width: 158px;
-                height: 14px;
-          
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -114,14 +109,12 @@
 /* И-Н-Т-Р-О */
               
               .intro {
-                width: 288px;
-                height: 754px;
+                max-width: 288px;
+                /* height: 754px; */
               }
               
+
               .intro__title {
-                width: 288px;
-                height: 70px;
-          
                 font-family: 'Inter-Black';
                 font-style: normal;
                 font-weight: 900;
@@ -131,10 +124,10 @@
                 color: #FFFFFF;
               }
               
+
               .inrto__text {
-                width: 288px;
-                height: 520px;
-          
+                max-width: 288px;
+                /* height: 520px; */
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -144,10 +137,10 @@
                 color: #FFFFFF;
               }
               
+
               .intro__list {
                 width: 288px;
                 height: 90px;
-          
                 font-family: 'Inter-Bold';
                 font-style: normal;
                 font-weight: 700;
@@ -165,7 +158,6 @@
               .photo-grid__item {
                 max-width: 288px;
                 /* max-height: 225px; */
-          
                 /* max-width: 100%; */
                 /* max-height: 100%; */
                 /* width: 100%; */
@@ -182,56 +174,45 @@
               }
               
               .place {
-                width: 320px;
-                height: 1042px;
-          
+                max-width: 320px;
                 /* display: flex; */
                 /* flex-direction: row; */
                 display: grid;
                 grid-template-columns: 1fr 1fr;
                 grid-template-rows: 1fr 1fr 1fr;
-                grid-template-areas:
-                "title link"
-                "image paragraph"
-                "image paragraph-bottom"
               }
               
+              
               .place__title {
-                width: 288px;
-                height: 35px;
-             
                 font-family: 'Inter-Black';
                 font-style: normal;
                 font-weight: 900;
                 font-size: 32px;
                 line-height: 109%;
                 /* or 35px*/
-                grid-area: title;
               }
               
+
               .place__image {
-                width: 320px;
-                height: 320px;
-                  
+                max-width: 320px;
+                /* height: 320px;      */
                 /* width: 90%; */
                 /* height: 90%; */
                 background-size: cover;
-                grid-area: image;
                 /* grid-row-start: 2; */
                 /* grid-row-end: 4; */
                 /* grid-row-start: 2; */
                 /* grid-row-end: span 2; */
               }
               
+
               .place__website {
-                width: 288px;
-                height: 46px;
+                /* width: 288px;
+                height: 46px; */
               }
               
+
               .place__url-heading {
-                width: 288px;
-                height: 12px;
-          
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -241,13 +222,10 @@
                 letter-spacing: 2px;
                 color: #AAAAAA;
                 text-transform: uppercase;
-                grid-area: link;
               }
               
+
               .place__link {
-                width: 288px;
-                height: 22px;
-          
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -256,12 +234,11 @@
                 /* identical to box height, or 22px */
                 text-decoration: underline;
                 color: #FFFFFF;
-                /* grid-area: link; */
               }
               
+
               .place__paragraph {
-                width: 288px;
-          
+                /* width: 288px; */
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -271,19 +248,17 @@
                 color: #FFFFFF;
                 /* grid-column-start: 2;
                 grid-column-end: span 2; */
-                grid-area: paragraph;
                 
               }
               
+
               .place__paragraph_bottom {
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
                 font-size: 16px;
                 line-height: 163%;
-                /* or 26px */
-              
-                grid-area: paragraph-bottom;
+                /* or 26px */ 
               }
               
               
@@ -291,16 +266,14 @@
 /* Б-А-Й-К-А-Л */
               
               .cover {
-                width: 320px;
-                height: 200px;
+                /* width: 320px;
+                height: 200px; */
                 /* width: 90vw; */
                 /* height: 90vh; */
               }
               
+
               .cover__title {
-                width: 288px;
-                height: 70px;
-          
                 font-family: 'Inter-Black';
                 font-style: normal;
                 font-weight: 900;
@@ -311,10 +284,8 @@
                 color: #FFFFFF;
               }
               
+
               .cover__subtitle {
-                width: 288px;
-                height: 48px;
-          
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -325,6 +296,7 @@
                 color: #FFFFFF;
               }
               
+
               .cover__background {
                 background-image: url('../images/cover-trains.jpg');
                 background-repeat: no-repeat;
@@ -336,23 +308,24 @@
 /* П-О-Д-В-А-Л */
               
               .footer {
-                width: 186px;
-                height: 310px;
-          
+                max-width: 186px;
+                /* height: 310px; */
                 display: flex;
                 justify-content: space-between;
               }
               
+
               .footer__menu {
                 
               }
               
+
               .footer__links {
                 display: flex;
+                flex-direction: column;
                 list-style-type: none;
                 /* justify-content: space-between; */
                 gap: 18px;
-              
                 font-family: 'Inter-Regular';
                 font-style: normal;
                 font-weight: 400;
@@ -362,6 +335,7 @@
                 color: #FFFFFF;
               }
               
+
               .footer__link {
                 font-family: 'Inter-Regular';
                 text-decoration: none;
@@ -374,6 +348,7 @@
                 color: #FFFFFF;
               }
               
+
               .footer__copyright {
                 margin-bottom: 24px;
                 font-family: 'Inter-Regular';
