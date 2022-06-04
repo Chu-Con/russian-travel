@@ -1,8 +1,8 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px){
     .page {
         min-width: 1024px;
-        max-width: 1279.99px;
-        margin: 0;
+        max-width: 1279px;
+        margin: 0 auto;
         padding: 0;
         background-color: #2A2C2F;
         color: #FFFFFF;
@@ -156,7 +156,7 @@
           }
         
         
-          
+
 /* Г-А-Л-Е-Р-Е-Я */
         
         .photo-grid {
