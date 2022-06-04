@@ -14,14 +14,17 @@
     
     .header {
       max-width: 1184px;
+      /* width: calc(100% - 48px*2); */
       display: flex;
       justify-content: space-between;
       margin: 0 auto;
+      padding-top: 28px;
     }
     
 
     .header__logo {
       width: 176px;
+      padding-top: 28px;
     }
     
 
@@ -29,6 +32,7 @@
       display: flex;
       list-style-type: none;
       gap: 18px;
+      padding-top: 46px;
     }
     
     

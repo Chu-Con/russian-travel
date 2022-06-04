@@ -14,15 +14,18 @@
 /* Ш-А-П-К-А */
             
             .header {
-                max-width: 720px;
+                /* max-width: 720px; */
+                max-width: calc(100% - 24px*2);
                 display: flex;
                 justify-content: space-between;
                 margin: 0 auto;
+                
               }
               
 
               .header__logo {
                 width: 176px;
+                padding-top: 28px;
               }
               
               
@@ -30,6 +33,7 @@
                 display: flex;
                 list-style-type: none;
                 gap: 18px;
+                padding-top: 46px;
               }
               
               
