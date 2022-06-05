@@ -132,7 +132,7 @@
         
 
         .inrto__text {
-          max-width: 690px;
+          max-width: 100%;
           /* height: 208px; */
           font-family: 'Inter-Regular';
           font-style: normal;
@@ -169,13 +169,14 @@
 /* Г-А-Л-Е-Р-Е-Я */
         
         .photo-grid {
+          /* width: calc(100% - 48px*2); */
           max-width: 928px;
           /* max-height: 942px; */
-          /* параметр высоты взял из тренажера */
           /* min-height: calc(100vh - 80px); */
           display: grid;
-          grid-template-columns:repeat(4, 1fr);
-          grid-template-rows: repeat(3, 1fr);
+          grid-template-columns: repeat(3,minmax(min-content,1fr));
+          /* grid-template-columns:repeat(4, 1fr);
+          grid-template-rows: repeat(3, 1fr); */
           gap: 16px;
           margin: 0 auto;
         }
