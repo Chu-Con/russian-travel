@@ -288,8 +288,8 @@
 /* Б-А-Й-К-А-Л */
               
               .cover {
-                /* width: 320px;
-                height: 200px; */
+                width: 320px;
+                /* height: 200px; */
                 /* width: 90vw; */
                 /* height: 90vh; */
                 margin: 0 auto;
@@ -302,9 +302,9 @@
                 height: 740px; */
                 background-image: url('../images/cover-trains.jpg');
                 background-repeat: no-repeat;
-                background-size: contain;
-                /* background-size: cover;
-                background-position: center; */
+                /* background-size: contain; */
+                background-size: cover;
+                background-position: center;
                 z-index: 1;
               }
               
