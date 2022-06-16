@@ -117,6 +117,7 @@
           max-width: 690px;
           /* max-height: 429px; */
           margin: 0 auto;
+          color: #FFFFFF;
         }
         
 
@@ -154,6 +155,8 @@
           /* or 18px*/
           list-style-type: none;
           color: #FFFFFF;
+          margin: 0;
+          padding: 0;
         }
         
 
@@ -227,6 +230,8 @@
           line-height: 106%;
           /* or 76px*/
           grid-area: title;
+          margin: 0;
+          color: #FFFFFF;
         }
         
 

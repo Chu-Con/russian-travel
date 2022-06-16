@@ -118,6 +118,7 @@
                 min-width: 288px;
                 /* height: 754px; */
                 margin: 0 auto;
+                color: #FFFFFF;
               }
               
 
@@ -156,6 +157,8 @@
                 /* or 18px*/
                 list-style-type: none;
                 color: #FFFFFF;
+                margin: 0;
+                padding: 0;
               }
               
 
@@ -218,6 +221,7 @@
                 line-height: 109%;
                 /* or 35px*/
                 margin: 0;
+                color: #FFFFFF;
               }
               
 

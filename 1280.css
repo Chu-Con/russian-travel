@@ -1,6 +1,7 @@
 @media screen and (min-width: 1280px){
     .page {
       min-width: 1280px;
+      /* max-width: 1280px; */
       margin: 0 auto;
       padding: 0;
       background-color: #2A2C2F;
@@ -117,6 +118,7 @@
       max-width: 690px;
       /* max-height: 429px; */
       margin: 0 auto;
+      color: #FFFFFF;
     }
     
 
@@ -154,6 +156,8 @@
       /* or 18px*/
       list-style-type: none;
       color: #FFFFFF;
+      margin: 0;
+      padding: 0;
     }
     
 
@@ -195,7 +199,7 @@
 /* М-Е-С-Т-А */
     
     .places {
-      /* max-width: 984px; */
+      max-width: 984px;
       margin: 0 auto;
     }
     
@@ -223,6 +227,7 @@
       /* or 76px*/
       grid-area: title;
       margin: 0;
+      color: #FFFFFF;
     }
     
 
