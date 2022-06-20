@@ -1,6 +1,6 @@
-@media screen and (max-width: 767px){
+@media (max-width: 767px){
     .page {
-      min-width: 320px;
+      /* min-width: 320px; */
       max-width: 767px;
       margin: 0 auto;
       padding: 0;
@@ -15,7 +15,7 @@
             
             .header {
                 max-width: 288px;
-                max-width: calc(100% - 16px*2);
+                /* max-width: calc(100% - 16px*2); */
                 display: flex;
                 justify-content: space-between;
                 margin: 0 auto;
@@ -25,6 +25,7 @@
 
               .header__logo {
                 width: 142px;
+                /* width: 0; */
                 padding-top: 16px;
               }
               
