@@ -1,0 +1,43 @@
+.footer__copyright {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+  }
+
+/* 320 */
+@media (max-width: 767px){
+    .footer__copyright {
+        line-height: 100%;
+        /* identical to box height, or 14px*/
+      }
+}
+
+/* 768 */
+@media (max-width: 1023px){
+    .footer__copyright {
+        line-height: 114%;
+        /* identical to box height, or 16px*/
+        text-align: right;
+      }
+}
+
+/* 1024 */
+@media (max-width: 1279px){
+    .footer__copyright {
+        line-height: 114%;
+        /* identical to box height, or 16px*/
+        text-align: right;
+      }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+    .footer__copyright {
+        line-height: 114%;
+        /* identical to box height, or 16px*/
+        text-align: right;
+      }
+}

@@ -1,0 +1,56 @@
+.photo-grid {
+    display: grid;
+    gap: 16px;
+    margin: 0 auto;
+  }
+
+  /* 320 */
+@media (max-width: 767px){
+    .photo-grid {
+        /* max-width: 320px; */
+        /* max-width: 928px; */
+        /* max-height: 942px; */
+        /* min-height: calc(100vh - 80px); */
+        /* grid-template-columns: minmax(288px,1fr); */
+      }
+}
+
+/* 768 */
+@media (max-width: 1023px){
+    .photo-grid {
+        /* width: calc(100% - 24px*2); */
+        max-width: 928px;
+        /* max-height: 942px; */
+        /* min-height: calc(100vh - 80px); */
+        grid-template-columns: repeat(2,minmax(min-content,1fr));
+        /* grid-template-columns:repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr); */
+      }
+}
+
+/* 1024 */
+@media (max-width: 1279px){
+    .photo-grid {
+        /* width: calc(100% - 48px*2); */
+        max-width: 928px;
+        /* max-height: 942px; */
+        /* min-height: calc(100vh - 80px); */
+        grid-template-columns: repeat(3,minmax(min-content,1fr));
+        /* grid-template-columns:repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr); */
+      }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+    .photo-grid {
+        max-width: 1184px;
+        /* max-height: 671px; */
+        grid-template-columns: repeat(4,minmax(min-content,1fr));
+        /* grid-template-columns: repeat(auto-fill, minmax(284px, auto)); */
+        /* grid-template-columns:repeat(4, 1fr); */
+        /* grid-template-rows: repeat(3, 1fr); */
+        justify-content: center;
+        padding: 0;
+      }
+}

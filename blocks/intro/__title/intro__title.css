@@ -1,0 +1,45 @@
+.intro__title {
+    font-family: 'Inter-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+    /* identical to box height, or 35px*/
+    color: #FFFFFF;
+  }
+  
+/* 320 */
+@media (max-width: 767px){
+    .intro__title {
+        font-size: 32px;
+        line-height: 109%;
+        /* identical to box height, or 35px*/
+      }
+}
+
+/* 768 */
+@media (max-width: 1023px){
+    .intro__title {
+        font-size: 54px;
+        line-height: 107%;
+        /* identical to box height, or 58px*/
+      }
+}
+
+/* 1024 */
+@media (max-width: 1279px){
+    .intro__title {
+        font-size: 54px;
+        line-height: 107%;
+        /* identical to box height, or 58px*/
+      }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+    .intro__title {
+        font-size: 54px;
+        line-height: 107%;
+        /* identical to box height, or 58px*/
+      }
+}

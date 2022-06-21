@@ -1,0 +1,12 @@
+.inrto__text {
+    width: 100%;
+    /* max-width: 288px; */
+    /* height: 520px; */
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    /* or 26px */
+    color: #FFFFFF;
+  }

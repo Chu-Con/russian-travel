@@ -1,0 +1,40 @@
+.intro__list {
+    font-family: 'Inter-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px*/
+    list-style-type: none;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* 320 */
+@media (max-width: 767px){
+    .intro__list {
+        width: 100%;
+      }
+}
+
+/* 768 */
+@media (max-width: 1023px){
+    .intro__list {
+        width: 720px;
+      }
+}
+
+/* 1024 */
+@media (max-width: 1279px){
+    .intro__list {
+        width: 690px;
+      }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+    .intro__list {
+        width: 690px;
+      }
+}

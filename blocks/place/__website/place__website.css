@@ -1,0 +1,37 @@
+.place__website {
+
+  }
+
+/* 320 */
+@media (max-width: 767px){
+    .place__website {
+        /* align-self: center; */
+        /* width: 288px;
+        height: 46px; */
+      }
+    
+}
+
+/* 768 */
+@media (max-width: 1023px){
+    .place__website {
+        align-self: end;
+        grid-area: web;
+      }
+}
+
+/* 1024 */
+@media (max-width: 1279px){
+    .place__website {
+        align-self: end;
+        grid-area: web;
+      }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+    .place__website {
+        align-self: end;
+        grid-area: web;
+      }
+}
