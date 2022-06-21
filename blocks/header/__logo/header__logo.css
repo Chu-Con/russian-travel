@@ -6,7 +6,6 @@
 @media (max-width: 767px){
     .header__logo {
         width: 142px;
-        /* width: 0; */
         padding-top: 16px;
       }
 }
@@ -30,7 +29,7 @@
 /* 1280 */
 @media (min-width: 1280px){
     .header__logo {
-        /* width: 176px; */
+        width: 176px;
         padding-top: 28px; 
       }
 }

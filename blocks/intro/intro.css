@@ -8,6 +8,7 @@
     .intro {
         min-width: 288px;
         /* height: 754px; */
+        margin-bottom: 64px;
       }
 }
 
@@ -16,6 +17,7 @@
     .intro {
         max-width: 720px;
         /* max-height: 429px; */
+        margin-bottom: 88px;
       }
 }
 
@@ -24,6 +26,7 @@
     .intro {
         max-width: 690px;
         /* max-height: 429px; */
+        margin-bottom: 92px;
       }
 }
 
@@ -32,5 +35,6 @@
     .intro {
         max-width: 690px;
         /* max-height: 429px; */
+        margin-bottom: 92px;
       }
 }
