@@ -1,27 +1,32 @@
 .header__logo {
 
-  }
+}
 
 /* 320 */
 @media (max-width: 767px){
     .header__logo {
         width: 142px;
+        height: 42px;
         padding-top: 16px;
       }
 }
 
 /* 768 */
-@media (max-width: 1023px){
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
     .header__logo {
         width: 176px;
+        height: 52px;
         padding-top: 28px;
       }
 }
 
 /* 1024 */
-@media (max-width: 1279px){
+/* @media (max-width: 1279px){ */
+@media (min-width: 1024px){
     .header__logo {
         width: 176px;
+        height: 52px;
         padding-top: 28px;
       }
 }
@@ -30,6 +35,7 @@
 @media (min-width: 1280px){
     .header__logo {
         width: 176px;
+        height: 52px;
         padding-top: 28px; 
       }
 }

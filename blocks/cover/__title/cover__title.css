@@ -13,6 +13,7 @@
         font-size: 32px;
         line-height: 109%;
         /* or 35px*/
+        margin: 0 auto 16px;
       }
 }
 
@@ -22,6 +23,7 @@
         font-size: 72px;
         line-height: 106%;
         /* or 76px*/
+        margin: 0 auto 32px;
       }
 }
 
@@ -31,6 +33,7 @@
         font-size: 72px;
         line-height: 106%;
         /* or 76px*/
+        margin: 0 auto 32px;
       }
 }
 
@@ -40,5 +43,6 @@
         font-size: 72px;
         line-height: 106%;
         /* or 76px*/
+        margin: 0 auto 32px;
       }
 }

@@ -14,26 +14,28 @@
         /* flex-wrap: wrap; */
         flex-direction: column;
         /* justify-content: space-between; */
-      }
+    }
 }
 
 /* 768 */
 @media (max-width: 1023px){
     .footer__links {
         /* justify-content: space-between; */
-      }
+        margin-top: 88px;
+    }
 }
 
 /* 1024 */
 @media (max-width: 1279px){
     .footer__links {
-
-      }
+      margin-top: 92px;
+    }
 }
 
 /* 1280 */
 @media (min-width: 1280px){
     .footer__links {
-        padding: 0;
-      }
+      padding: 0;
+      margin-top: 92px;
+    }
 }

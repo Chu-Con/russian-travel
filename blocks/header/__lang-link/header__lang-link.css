@@ -1,43 +1,36 @@
 .header__lang-link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    text-decoration: none;
-    color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.15s ease;
+  /* transition здесь, а не в hover для плавного эффекта не только при наведении, но и когда убираем курсор с элемента */
+}
+
+.header__lang-link:hover {
+  opacity: .6;
+  text-decoration: underline;
+  /* transition: opacity 0.15s ease; */
 }
 
 /* 320 */
 @media (max-width: 767px){
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 111%;
-        /* identical to box height, or 20px*/
-    }
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 111%;
+    /* identical to box height, or 20px*/
+  }
 }
 
 /* 768 */
-@media (max-width: 1023px){
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 111%;
-        /* identical to box height, or 20px*/
-      }
-}
-
-/* 1024 */
-@media (max-width: 1279px){
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 117%;
-        /* identical to box height, or 28px*/
-      }
-}
-
-/* 1280 */
-@media (min-width: 1280px){
-    .header__lang-link {
-        font-size: 24px;
-        line-height: 117%;
-        /* identical to box height, or 28px*/
-      }
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
+  .header__lang-link {
+    font-size: 24px;
+    line-height: 117%;
+    /* identical to box height, or 28px*/
+  }
 }
