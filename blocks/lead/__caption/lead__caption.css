@@ -1,11 +1,44 @@
 .lead__caption {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 140%;
-    /* identical to box height, or 14px*/
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  width: 158px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 140%;
+  /* identical to box height, or 14px*/
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 0;
+}
+
+
+/* 320 */
+@media (max-width: 767px){
+  .lead__caption {
+    margin: 8px 0 0 16px;
   }
+}
+
+/* 768 */
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
+  .lead__caption {
+    margin: 8px 0 0 24px;
+  }
+}
+
+/* 1024 */
+/* @media (max-width: 1279px){ */
+@media (min-width: 1024px){
+  .lead__caption {
+    margin: 8px 0 0 48px;
+  }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+  .lead__caption {
+    margin: 8px 0 0 148px;
+  }
+}
