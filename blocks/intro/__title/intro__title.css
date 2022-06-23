@@ -1,45 +1,48 @@
 .intro__title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 109%;
-    /* identical to box height, or 35px*/
-    color: #FFFFFF;
-  }
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 109%;
+  /* identical to box height, or 35px*/
+  color: #FFFFFF;
+  padding: 0;
+}
   
 /* 320 */
 @media (max-width: 767px){
-    .intro__title {
-        font-size: 32px;
-        line-height: 109%;
-        /* identical to box height, or 35px*/
-      }
+  .intro__title {
+    min-width: 288px;
+    max-width: 720px;
+    font-size: 32px;
+    line-height: 109%;
+    /* identical to box height, or 35px*/
+    margin: 64px 0 0 16px;
+  }
 }
 
 /* 768 */
-@media (max-width: 1023px){
-    .intro__title {
-        font-size: 54px;
-        line-height: 107%;
-        /* identical to box height, or 58px*/
-      }
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
+  .intro__title {
+    max-width: 720px;
+    font-size: 54px;
+    line-height: 107%;
+    /* identical to box height, or 58px*/
+    margin: 88px 0 0 24px;
+  }
 }
 
 /* 1024 */
-@media (max-width: 1279px){
-    .intro__title {
-        font-size: 54px;
-        line-height: 107%;
-        /* identical to box height, or 58px*/
-      }
+@media (min-width: 1024px){
+  .intro__title {
+    margin: 92px 0 0 48px;
+  }
 }
 
 /* 1280 */
 @media (min-width: 1280px){
-    .intro__title {
-        font-size: 54px;
-        line-height: 107%;
-        /* identical to box height, or 58px*/
-      }
+  .intro__title {
+    /* margin: 92px 0 0 148px; */
+  }
 }
