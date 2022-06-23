@@ -34,6 +34,7 @@
 /* @media (max-width: 1279px){ */
 @media (min-width: 1024px){
   .intro__text {
-    margin: 40px auto 33px 48px;
+    max-width: 690px;
+    margin: 40px 0 33px 48px;
   }
 }
