@@ -1,48 +1,31 @@
 .cover__title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    color: #FFFFFF;
-    z-index: 2;
-  }
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 2;
+}
 
-  /* 320 */
+
+
+/* 320 */
 @media (max-width: 767px){
-    .cover__title {
-        font-size: 32px;
-        line-height: 109%;
-        /* or 35px*/
-        margin: 0 auto 16px;
-      }
+  .cover__title {
+    font-size: 32px;
+    line-height: 109%;
+    /* or 35px*/
+    margin: 0 auto 16px;
+  }
 }
 
 /* 768 */
-@media (max-width: 1023px){
-    .cover__title {
-        font-size: 72px;
-        line-height: 106%;
-        /* or 76px*/
-        margin: 0 auto 32px;
-      }
-}
-
-/* 1024 */
-@media (max-width: 1279px){
-    .cover__title {
-        font-size: 72px;
-        line-height: 106%;
-        /* or 76px*/
-        margin: 0 auto 32px;
-      }
-}
-
-/* 1280 */
-@media (min-width: 1280px){
-    .cover__title {
-        font-size: 72px;
-        line-height: 106%;
-        /* or 76px*/
-        margin: 0 auto 32px;
-      }
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
+  .cover__title {
+    font-size: 72px;
+    line-height: 106%;
+    /* or 76px*/
+    margin: 0 auto 32px;
+  }
 }

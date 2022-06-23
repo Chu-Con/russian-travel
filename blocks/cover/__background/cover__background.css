@@ -1,15 +1,45 @@
 .cover__background {
-    width: 100%;
-    /* width: 1184px;
-    height: 740px; */
-    background-image: url('../../../images/cover-trains.jpg');
-    background-repeat: no-repeat;
-    /* background-size: contain; */
-    background-size: cover;
-    background-position: center;
-    z-index: 1;
-    /* margin-left: 48px;
-    margin-right: 48px; */
-  }
+  width: 100%;
+  /* width: 1184px;
+  height: 740px; */
+  background-image: url('../../../images/cover-trains.jpg');
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  /* margin-left: 48px;
+  margin-right: 48px; */
+}
 
-  
+
+
+/* 320 */
+@media (max-width: 767px){
+  .cover__background {
+    /* min-height: 200px; */
+  }
+}
+
+/* 768 */
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
+  .cover__background {
+    min-height: 480px;
+  }
+}
+
+/* 1024 */
+/* @media (max-width: 1279px){ */
+@media (min-width: 1024px){
+  .cover__background {
+    min-height: 640px;
+  }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+  .cover__background {
+    min-height: 740px;
+  }
+}
