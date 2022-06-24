@@ -7,7 +7,9 @@
   /* background-size: contain; */
   background-size: cover;
   background-position: center;
+  box-sizing: border-box;
   z-index: 1;
+  opacity: .8;
   /* margin-left: 48px;
   margin-right: 48px; */
 }
@@ -17,7 +19,7 @@
 /* 320 */
 @media (max-width: 767px){
   .cover__background {
-    /* min-height: 200px; */
+    min-height: 200px;
   }
 }
 

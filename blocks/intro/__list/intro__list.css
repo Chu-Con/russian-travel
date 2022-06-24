@@ -8,6 +8,7 @@
   list-style-type: none;
   color: #FFFFFF;
   padding: 0;
+  margin: 0;
 }
 
   /* 320 */
@@ -33,12 +34,5 @@
   .intro__list {
     width: 690px;
     margin: 0 auto 92px 48px;
-  }
-}
-
-/* 1280 */
-@media (min-width: 1280px){
-  .intro__list {
-    width: 690px;
   }
 }

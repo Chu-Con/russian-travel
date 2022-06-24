@@ -1,5 +1,5 @@
 .place__text {
-  grid-area: text;
   margin: 0;  
-  padding: 0;  
+  padding: 0;
+  grid-area: text;  
 }
