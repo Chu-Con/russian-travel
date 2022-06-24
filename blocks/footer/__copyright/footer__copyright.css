@@ -1,53 +1,45 @@
 .footer__copyright {
   display: flex;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    margin-bottom: 24px;
-    color: #FFFFFF;
-  }
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 /* 320 */
 @media (max-width: 767px){
-    .footer__copyright {
-      
-        line-height: 100%;
-        /* identical to box height, or 14px*/
-        margin: 0 auto;
-        text-align: left;
-      }
+  .footer__copyright { 
+    line-height: 100%;
+    margin-left: 16px; 
+  }
 }
 
 /* 768 */
-@media (max-width: 1023px){
-    .footer__copyright {
-        line-height: 114%;
-        /* identical to box height, or 16px*/
-        text-align: right;
-        margin-top: 90px;
-        align-self: flex-end;
-      }
+/* @media (max-width: 1023px){ */
+@media (min-width: 768px){
+  .footer__copyright {
+    line-height: 114%;
+    /* identical to box height, or 16px*/
+    text-align: right;
+    margin-top: 90px;
+    align-self: flex-end;
+  }
 }
 
 /* 1024 */
-@media (max-width: 1279px){
-    .footer__copyright {
-        line-height: 114%;
-        /* identical to box height, or 16px*/
-        text-align: right;
-        margin-top: 94px;
-        align-self: flex-end;
-      }
-}
-
-/* 1280 */
-@media (min-width: 1280px){
-    .footer__copyright {
-        line-height: 114%;
-        /* identical to box height, or 16px*/
-        text-align: right;
-        margin-top: 94px;
-        align-self: flex-end;
-      }
+/* @media (max-width: 1279px){ */
+@media (min-width: 1024px){
+  .footer__copyright {
+    line-height: 114%;
+    /* identical to box height, or 16px*/
+    text-align: right;
+    margin-top: 94px;
+    align-self: flex-end;
+  }
 }

@@ -1,7 +1,7 @@
 .photo-grid {
   display: grid;
   gap: 16px;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   grid-template-columns: repeat(auto-fill, minmax(288px, auto));
   justify-content: center;
@@ -12,6 +12,7 @@
 /* 320 */
 @media (max-width: 767px){
   .photo-grid {
+    min-width: 320px;
     /* grid-template-columns: minmax(288px,1fr); */
     /* grid-template-columns: repeat(auto-fill, minmax(288px, auto)); */
   }
@@ -39,6 +40,7 @@
 @media (min-width: 1280px){
   .photo-grid {
     max-width: 1184px;
+    /* margin: 0 auto; */
     /* grid-template-columns: repeat(4,minmax(min-content,1fr)); */
     /* justify-content: center; */
   }

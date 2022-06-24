@@ -1,6 +1,8 @@
 .photo-grid__item {
   object-fit: cover;
   width: 100%;
+  padding: 0;
+  margin: 0 auto;
 }   
 
 
@@ -9,8 +11,9 @@
 @media (max-width: 767px){
   .photo-grid__item {
     /* min-width: 288px; */
-    /* width: calc(100% - 16px*2); */
-    margin: 0 16px;
+    width: calc(100% - 16px*2);
+    /* max-width: 352px; */
+    /* margin: 0 16px; */
   }   
 }
 
