@@ -6,8 +6,14 @@
   color: #FFFFFF;
   margin: 0;
   padding: 0;
+  transition: opacity 0.15s ease;
 }
 
+
+.footer__link:hover {
+  opacity: .6;
+  /* transition: opacity 0.15s ease; */
+}
 
 
 /* 320 */

@@ -7,4 +7,11 @@
     /* identical to box height, or 22px */
     text-decoration: underline;
     color: #FFFFFF;
+    transition: opacity 0.15s ease;
+  }
+
+
+  .place__link:hover {
+    opacity: .6;
+    /* transition: opacity 0.15s ease; */
   }
