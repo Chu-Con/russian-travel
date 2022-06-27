@@ -1,10 +1,15 @@
 .cover__title {
+  /* display: flex;
+  align-items: center;
+  width: 100%; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
-  text-align: center;
+  /* text-align: center; */
   color: #FFFFFF;
   z-index: 2;
+  padding: 0;
+  margin: 0;
 }
 
 
@@ -16,6 +21,7 @@
     line-height: 109%;
     /* or 35px*/
     margin: 0 auto 16px;
+    max-width: 288px;
   }
 }
 
@@ -27,5 +33,6 @@
     line-height: 106%;
     /* or 76px*/
     margin: 0 auto 32px;
+    max-width: 560px;
   }
 }

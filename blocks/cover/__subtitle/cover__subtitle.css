@@ -4,8 +4,11 @@
   font-weight: 400;
   text-align: center;
   color: #FFFFFF;
-  z-index: 2;
+  padding: 0;
   margin: 0 auto;
+  z-index: 2;
+  max-width: 360px;
+  /* padding: 0 calc(66 / 360 * 100%); */
 }
 
 
@@ -15,7 +18,10 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 114%;
+    min-width: 288px;
     /* or 16px*/
+    /* margin: 0 16px; */
+    /* max-width: 288px; */
   }
 }
 
@@ -26,5 +32,6 @@
     font-size: 18px;
     line-height: 122%;
     /* or 22px*/
+    /* max-width: 360px; */
   }
 }
