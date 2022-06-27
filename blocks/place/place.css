@@ -1,6 +1,9 @@
 .place {
-    display: grid;
-  }
+  display: grid;
+  margin: 0 auto;
+  padding: 0;
+}
+
 
 
 /* 320 */
@@ -17,7 +20,12 @@
     /* row-gap: 32px; */
     margin: 0 auto 50px;
   }
+
+  .place:last-child {
+    margin: 0 auto;
+  }
 }
+
 
 /* 768 */
 /* @media (max-width: 1023px){ */
@@ -32,6 +40,10 @@
     column-gap: 48px;
     margin: 0 24px 73px;
   }
+
+  .place:last-child {
+    margin: 0 24px;
+  }
 }
 
 /* 1024 */
@@ -45,6 +57,10 @@
     'image text';
     row-gap: 32px;
     margin: 0 48px 80px;
+  }
+
+  .place:last-child {
+    margin: 0 48px;
   }
 }
 
