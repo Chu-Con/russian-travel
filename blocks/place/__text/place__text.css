@@ -1,13 +1,13 @@
 .place__text {
-  margin: 0;  
+  margin: 0;
   padding: 0;
-  grid-area: text;  
+  grid-area: text;
 }
 
 /* 320 */
 @media (max-width: 767px){
 /* @media (min-width: 768px) { */
   .place__text {
-    margin: 0 16px;  
+    margin: 0 16px;
   }
 }
