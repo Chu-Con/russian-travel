@@ -1,17 +1,17 @@
 .place__website {
   grid-area: web;
+  margin: 0;
+  padding: 0;
 }
 
 
 /* 320 */
 @media (max-width: 767px){
-  .place__website {
-    /* align-self: center; */
-    /* width: 288px;
-    height: 46px; */
-  
-  }  
-}
+  /* @media (min-width: 768px) { */
+    .place__website {
+      margin: 0 16px;  
+    }
+  }
 
 /* 768 */
 /* @media (max-width: 1023px){ */

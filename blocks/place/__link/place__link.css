@@ -8,6 +8,8 @@
     text-decoration: underline;
     color: #FFFFFF;
     transition: opacity 0.15s ease;
+    margin: 0;
+    padding: 0;
   }
 
 
@@ -15,3 +17,5 @@
     opacity: .6;
     /* transition: opacity 0.15s ease; */
   }
+
+

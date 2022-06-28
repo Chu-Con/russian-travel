@@ -3,6 +3,7 @@
   font-style: normal;
   font-weight: 900;
   margin: 0;
+  padding: 0;
   color: #FFFFFF;
 }
 
@@ -13,6 +14,7 @@
     font-size: 32px;
     line-height: 109%;
     /* or 35px*/
+    margin: 0 16px;  
   }
 }
 
