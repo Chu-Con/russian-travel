@@ -39,10 +39,3 @@
     margin: 92px 0 0 48px;
   }
 }
-
-/* 1280 */
-@media (min-width: 1280px){
-  .intro__title {
-    /* margin: 92px 0 0 148px; */
-  }
-}

@@ -26,9 +26,6 @@
 @media (min-width: 768px){
   .footer__copyright {
     line-height: 114%;
-    /* identical to box height, or 16px*/
-    /* text-align: right;
-    align-self: flex-end; */
     margin-right: 48px;
     margin-top: 90px;
   }

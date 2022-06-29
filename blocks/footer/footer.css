@@ -12,18 +12,10 @@
 /* @media (max-width: 1023px){ */
 @media (min-width: 768px) {
   .footer {
-    /* max-width: 720px; */
     flex-direction: row;
   }
 }
 
-/* 1024 */
-/* @media (max-width: 1279px){ */
-@media (min-width: 1024px){
-  .footer {
-    /* max-width: 928px; */
-  }
-}
 
 /* 1280 */
 @media (min-width: 1280px){

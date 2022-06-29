@@ -10,8 +10,6 @@
   /* 320 */
 @media (max-width: 767px){
   .photo-grid__item {
-    /* min-width: 288px; */
-    /* width: calc(100% - 16px*2); */
     max-width: 352px;
   }   
 }

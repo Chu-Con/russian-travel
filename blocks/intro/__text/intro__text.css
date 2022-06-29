@@ -1,7 +1,5 @@
 .inrto__text {
   width: 100%;
-  /* max-width: 288px; */
-  /* height: 520px; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -17,7 +15,6 @@
 @media (max-width: 767px){
   .intro__text {
     min-width: 288px;
-    /* max-width: 720px; */
     margin: 40px 16px 34px 16px;
   }
 }
