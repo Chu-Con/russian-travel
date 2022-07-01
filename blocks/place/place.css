@@ -93,4 +93,8 @@
     row-gap: 40px;
     margin: 0 148px 80px;
   }
+
+  .place:last-child {
+    margin: 0 148px;
+  }
 }
