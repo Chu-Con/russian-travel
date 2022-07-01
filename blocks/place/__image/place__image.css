@@ -8,24 +8,33 @@
 
 
 /* 320 */
-@media (max-width: 767px){
+@media (max-width: 424px){
+  .place__image {
+    /* max-width: 340px; */
+  }
+}
+
+/* сделал промежуточный брейкпоинт для плавности перехода по рекомендации в задании к проектной*/
+/* 425 */
+@media (min-width: 425px){
   .place__image {
     max-width: 340px;
   }
 }
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .place__image {
-    max-width: 340px;
+    min-width: 340px;
+    max-width: 440px;
   }
 }
 
 /* 1024 */
 @media (min-width: 1024px){
   .place__image {
-    max-width: 440px;
+    min-width: 440px;
+    max-width: 460px;
   }
 }
 

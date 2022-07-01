@@ -5,9 +5,16 @@
 }
 
 /* 320 */
-@media (max-width: 767px){
+@media (max-width: 424px){
 /* @media (min-width: 768px) { */
   .place__text {
     margin: 0 16px;
+  }
+}
+
+/* 425 */
+@media (min-width: 425px){
+  .place__text {
+    margin: 0 auto;
   }
 }

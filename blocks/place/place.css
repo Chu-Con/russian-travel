@@ -1,16 +1,19 @@
 .place {
-  width: 100%;
+  /* width: 100%; */
   display: grid;
   margin: 0 auto;
   padding: 0;
+  /* grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));  */
+  /* грид темплейт */
 }
 
 
 
 /* 320 */
-@media (max-width: 767px){
+@media (max-width: 424px){
   .place {
     grid-template-columns: minmax(320px,max-contetnt);
+    /* grid-template-columns: 1fr; */
     grid-template-areas:
     'title' 
     'web'
@@ -25,12 +28,31 @@
   }
 }
 
+/* сделал промежуточный брейкпоинт для плавности перехода по рекомендации в задании к проектной*/
+/* 425 */
+@media (min-width: 425px){
+  .place {
+    grid-template-columns: minmax(425px,max-contetnt);
+    /* grid-template-columns: 1fr; */
+    grid-template-areas:
+    'title' 
+    'web'
+    'image' 
+    'text';
+    row-gap: 32px;
+    margin: 0 24px 50px;
+  }
+
+  .place:last-child {
+    margin: 0 24px;
+  }
+}
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .place {
-    grid-template-columns: minmax(min-content,340px) minmax(352px,max-contetnt);
+    /* grid-template-columns: minmax(min-content,340px) minmax(352px,456px); */
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
     'title web'
     'image text';
@@ -45,10 +67,10 @@
 }
 
 /* 1024 */
-/* @media (max-width: 1279px){ */
 @media (min-width: 1024px){
   .place {
-    grid-template-columns: minmax(min-content,440px) minmax(456px,max-contetnt);
+    /* grid-template-columns: minmax(min-content,440px) minmax(456px,max-contetnt); */
+    grid-template-columns: minmax(440px, 460px) minmax(456px, 484px);
     grid-template-areas:
     'title web'
     'image text';
@@ -64,10 +86,11 @@
 /* 1280 */
 @media (min-width: 1280px){
   .place {
-    grid-template-columns: minmax(min-content,460px) minmax(min-content,484px);
+    /* grid-template-columns: minmax(min-content,460px) minmax(min-content,484px); */
     grid-template-areas:
     'title web'
     'image text';
     row-gap: 40px;
+    margin: 0 148px 80px;
   }
 }

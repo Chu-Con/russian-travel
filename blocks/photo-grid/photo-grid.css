@@ -12,7 +12,6 @@
 /* 320 */
 @media (max-width: 767px){
   .photo-grid {
-    min-width: 320px;
     row-gap: 12px;
     padding:  0 16px;
   }

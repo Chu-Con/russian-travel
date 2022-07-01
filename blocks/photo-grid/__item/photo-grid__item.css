@@ -7,15 +7,23 @@
 
 
 
-  /* 320 */
-@media (max-width: 767px){
+/* 320 */
+@media (max-width: 424px){
   .photo-grid__item {
-    max-width: 352px;
+    /* max-width: 352px; */
+    max-width: 100%;
   }   
 }
 
+/* сделал промежуточный брейкпоинт для плавности перехода по рекомендации в задании к проектной*/
+/* 425 */
+@media (min-width: 425px){
+  .photo-grid__item {
+    max-width: 352px;
+  }
+}
+
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .photo-grid__item {
     max-width: 352px;
@@ -23,7 +31,6 @@
 }
 
 /* 1024 */
-/* @media (max-width: 1279px){ */
 @media (min-width: 1024px){
   .photo-grid__item {
     max-width: 300px;
