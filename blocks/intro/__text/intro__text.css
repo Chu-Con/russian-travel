@@ -38,6 +38,6 @@
 /* 1280 */
 @media (min-width: 1280px){
   .intro__text {
-    margin: 40px 0 33px;
+    margin: 40px 0 33px 148px;
   }
 }
