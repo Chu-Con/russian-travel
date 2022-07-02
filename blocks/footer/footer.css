@@ -9,7 +9,6 @@
 
   
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px) {
   .footer {
     flex-direction: row;

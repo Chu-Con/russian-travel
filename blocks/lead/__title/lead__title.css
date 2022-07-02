@@ -19,22 +19,26 @@
   }
 }
 
-
-
-/* 768 */
-/* @media (max-width: 1023px){ */
+/* 768 */ 
 @media (min-width: 768px){
   .lead__title {
     font-size: 96px;
     line-height: 104%;
     /* or 100px*/
-    margin: 48px auto 0;
+    margin: 48px 24px 0;
+  }
+}
+
+/* 1024 */ 
+@media (min-width: 1024px){
+  .lead__title {
+    margin: 48px 152px 0;
   }
 }
 
 /* 1280 */
 @media (min-width: 1280px){
   .lead__title {
-    margin: 56px auto 0;
+    margin: 56px 280px 0;
   }
 }

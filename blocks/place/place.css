@@ -56,8 +56,8 @@
     grid-template-areas:
     'title web'
     'image text';
-    row-gap: 28px;
-    column-gap: 48px;
+    row-gap: 48px;
+    column-gap: 28px;
     margin: 0 24px 73px;
   }
 
@@ -74,7 +74,7 @@
     grid-template-areas:
     'title web'
     'image text';
-    row-gap: 32px;
+    column-gap: 32px;
     margin: 0 48px 80px;
   }
 
@@ -90,7 +90,7 @@
     grid-template-areas:
     'title web'
     'image text';
-    row-gap: 40px;
+    column-gap: 40px;
     margin: 0 148px 80px;
   }
 

@@ -22,7 +22,6 @@
 }
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .cover__subtitle {
     font-size: 18px;

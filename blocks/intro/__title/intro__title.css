@@ -22,7 +22,6 @@
 }
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .intro__title {
     max-width: 720px;
@@ -37,5 +36,12 @@
 @media (min-width: 1024px){
   .intro__title {
     margin: 92px 0 0 48px;
+  }
+}
+
+/* 1280 */
+@media (min-width: 1280px){
+  .intro__title {
+    margin: 92px 0 0;
   }
 }

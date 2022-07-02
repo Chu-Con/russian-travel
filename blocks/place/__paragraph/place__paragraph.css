@@ -7,6 +7,9 @@
   margin: 0;
 }
 
+.place__paragraph:last-of-type {
+  margin: 0 auto;
+}
 
 /* 768 */
 @media (max-width: 1023px) {

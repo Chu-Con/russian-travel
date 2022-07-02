@@ -13,17 +13,25 @@
     line-height: 125%;
     /* or 20px*/
     margin: 16px auto 40px;
+    max-width: 288px;
   }
 }
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .lead__subtitle {
     font-size: 30px;
     line-height: 120%;
     /* or 36px*/
     margin: 32px auto 56px;
+    max-width: 640px;
+  }
+}
+
+/* 1024 */
+@media (min-width: 1024px){
+  .lead__subtitle {
+
   }
 }
 

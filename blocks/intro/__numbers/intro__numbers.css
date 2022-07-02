@@ -2,6 +2,9 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* or 18px*/
     color: #FFFFFF;
     margin: 0;
     padding: 0;
