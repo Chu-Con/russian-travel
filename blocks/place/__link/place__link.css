@@ -1,21 +1,21 @@
 .place__link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 122%;
-    /* identical to box height, or 22px */
-    text-decoration: underline;
-    color: #FFFFFF;
-    transition: opacity 0.15s ease;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  /* identical to box height, or 22px */
+  text-decoration: underline;
+  color: #FFFFFF;
+  transition: opacity 0.15s ease;
+  margin: 0;
+  padding: 0;
+}
 
 
-  .place__link:hover {
-    opacity: .6;
-    /* transition: opacity 0.15s ease; */
-  }
+.place__link:hover {
+  opacity: .6;
+  /* transition: opacity 0.15s ease; */
+}
 
 

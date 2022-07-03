@@ -1,5 +1,5 @@
 .cover__title {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 900;
   color: #FFFFFF;
@@ -22,7 +22,6 @@
 }
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .cover__title {
     font-size: 72px;

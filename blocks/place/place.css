@@ -1,10 +1,9 @@
 .place {
-  /* width: 100%; */
+  max-width: 100%;
   display: grid;
   margin: 0 auto;
   padding: 0;
   /* grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));  */
-  /* грид темплейт */
 }
 
 
@@ -75,11 +74,13 @@
     'title web'
     'image text';
     column-gap: 32px;
-    margin: 0 48px 80px;
+    margin: 0 0 80px;
+    /* margin: 0 48px 80px; */
   }
 
   .place:last-child {
-    margin: 0 48px;
+    margin: 0;
+    /* margin: 0 48px; */
   }
 }
 

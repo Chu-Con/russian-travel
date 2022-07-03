@@ -7,33 +7,14 @@
 
 /* 320 */
 @media (max-width: 767px){
-  /* @media (min-width: 768px) { */
-    .place__website {
-      margin: 0 16px;  
-    }
+  .place__website {
+    margin: 0 16px;  
   }
+}
 
 /* 768 */
-/* @media (max-width: 1023px){ */
 @media (min-width: 768px){
   .place__website {
     align-self: end;
-
   }
-}
-
-/* 1024 */
-/* @media (max-width: 1279px){ */
-@media (min-width: 1024px){
-  .place__website {
-    align-self: end;
-
-  }
-}
-
-/* 1280 */
-@media (min-width: 1280px){
-  .place__website {
-    align-self: end;
-}
 }
